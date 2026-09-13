@@ -1,3 +1,10 @@
+Use a stack because the **most recently opened bracket must be closed first**. Push every opening bracket into the stack. 
+When a closing bracket appears, check the top of the stack: if it is empty or does not match the closing bracket, return false. 
+Otherwise, pop the matching opening bracket. After checking the entire string, the stack must be empty; otherwise, some opening brackets were left unmatched.
+
+Time: O(n)
+Space: O(n)
+
 class Solution {
 public:
     bool isValid(string s) {
