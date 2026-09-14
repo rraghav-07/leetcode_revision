@@ -36,7 +36,7 @@ public:
         // return result;
 
       //INPLACE APPROACH 2
-
+//INPLACE REPLACING 
     ListNode* mergeNodes(ListNode* head) {
         ListNode* temp=head;
         temp=temp->next;
