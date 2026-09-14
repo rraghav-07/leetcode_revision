@@ -1,5 +1,4 @@
 // Problem: 2095. Delete the Middle Node of a Linked List
-//
 // Approach:
 // First count the number of nodes.
 // Find the position of the middle node.
