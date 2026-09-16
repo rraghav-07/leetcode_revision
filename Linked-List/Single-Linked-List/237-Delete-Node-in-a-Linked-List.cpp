@@ -10,7 +10,7 @@ Example:
    node
 Copy 3 into 2:
 1 → 3 → 3 → 4
-Skip the duplicate:
+Skip the duplicate :
 1 → 3 → 4
 Complexity
 Time: O(1)
